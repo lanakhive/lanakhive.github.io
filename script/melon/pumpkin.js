@@ -59,7 +59,7 @@
 
 
 				var loader = new THREE.ImageLoader( manager );
-				loader.load( 'melon2.png', function ( image ) {
+				loader.load( '/script/melon/melon2.jpg', function ( image ) {
 
 					texture.image = image;
 					texture.needsUpdate = true;
